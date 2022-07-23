@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1658584970 source:d:\downloads\codeblocks\projects\pacaneauaseptaruluibagaret\main.cpp
+	<iostream>
+	<time.h>
+	<fstream>
+	<conio.h>
+	<windows.h>
+	<stdio.h>
+	<winuser.h>
+	<mmsystem.h>
+	<unistd.h>
+
