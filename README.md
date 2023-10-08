@@ -1,3 +1,18 @@
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+     <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+        <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#rules">Rules</a></li>
+    </ol>
+</details>
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 It is a small project started from a simple curiosity to see the working mechanism of a gambling machine. A mechanism that seems very easy to implement initially, but which is complicated by mathematical logic, using both notions of matrices and elements from the theory of probabilities. All this demanding an efficient implementation both in terms of memory and execution time of the respective program. It is a challenge for a mathematician, computer scientist and probably passionate about gambling.
@@ -14,29 +29,26 @@ The program starts with a simple animation followed by an input that represents 
 ## Rules
 
 Payouts are awarded from left to right and the number of similar symbols on each of the 4 paylines is calculated.
-Payment line 1: A B C D E
-Payment line 2: F G H I J
-Payment line 3: K L M N O
-Payment line 4: A G M I E
+  
+_Symbols and indices:_  
 
-
- _________
-|         |
-|A B C D E|
-|F G H I J|  0
-|K L M N O|  |
-|_________|__|
-| -     - |
-|---------|
-|_________| 
-    
-
-
-Symbols and indices:                      Chances:
-1_cherry                                  1,2,3,4,5,6 have the 50% chance to show, but 7 has a 10% chance 
+1_cherry                                  
 2_plum
-3_orange                                  symbol value:
-4_lemon                                   cherry - 5 usd
-5_grape                                   plum,orange,lemon - 20 usd
-6_melon                                   grape,melon - 100 usd
-7_seven                                   seven - 500 usd
+3_orange                                  
+4_lemon                                   
+5_grape                                   
+6_melon                                   
+7_seven                                   
+
+_Chances:_
+
+1,2,3,4,5,6 have the 50% chance to show, but 7 has a 10% chance 
+
+_symbol value:_
+
+cherry (5 usd), 
+plum,orange,lemon(20 usd), 
+grape,melon(100 usd), 
+seven(500 usd), 
+
+
