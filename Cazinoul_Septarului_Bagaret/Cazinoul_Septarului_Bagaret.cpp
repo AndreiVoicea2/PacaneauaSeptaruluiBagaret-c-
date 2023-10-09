@@ -26,7 +26,10 @@ void FullScreen()
 
 void MainDataInitialization()
 {
-    se.addSoundEffect("D:/Downloads/Cazinoul_Septarului_Bagaret/Cazinoul_Septarului_Bagaret/RollSound.wav");
+    string file_path = __FILE__;
+    string dir_path = file_path.substr(0, file_path.rfind("\\"));
+    dir_path += "/RollSound.wav";
+    se.addSoundEffect(dir_path.c_str());
 
 
     CurrentBalance = InputHandler("Enter the balance(" + to_string(MaximumBalance) + " max usd): ", MaximumBalance);

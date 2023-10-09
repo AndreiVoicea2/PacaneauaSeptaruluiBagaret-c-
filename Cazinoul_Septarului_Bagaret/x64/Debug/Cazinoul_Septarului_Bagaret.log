@@ -1,5 +1,2 @@
 ﻿  Cazinoul_Septarului_Bagaret.cpp
-  Slots.cpp
-D:\Downloads\Cazinoul_Septarului_Bagaret\Cazinoul_Septarului_Bagaret\Slots.cpp(144,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Generating Code...
-  Cazinoul_Septarului_Bagaret.vcxproj -> D:\Downloads\Cazinoul_Septarului_Bagaret\x64\Debug\Cazinoul_Septarului_Bagaret.exe
+  Cazinoul_Septarului_Bagaret.vcxproj -> C:\Program Files (x86)\PacaneauaSeptaruluiBagaret-c--master\x64\Debug\Cazinoul_Septarului_Bagaret.exe
