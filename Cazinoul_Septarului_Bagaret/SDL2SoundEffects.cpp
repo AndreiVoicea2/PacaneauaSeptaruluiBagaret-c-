@@ -27,7 +27,7 @@ SDL2SoundEffects::~SDL2SoundEffects()
 void SDL2SoundEffects::addSoundEffect(const char* path)
 {
     Mix_Chunk* tmpChunk = Mix_LoadWAV(path);
-
+    
     if (tmpChunk != nullptr)
     {
         mSoundEffectBank.push_back(tmpChunk);
