@@ -19,7 +19,7 @@ It is a small project started from a simple curiosity to see the working mechani
 
 ### Built With
 
-Project made in c++ console application using Visual Studio 2019 (initially created in Code Blocks)
+Project made in c++ console application using Visual Studio 2019 (initially created in Code::Blocks). For audio, the SDL library and SDL_mixer were used.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
